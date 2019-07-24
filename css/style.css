@@ -1,0 +1,28 @@
+/* Redes Sociais */
+
+.redes-sociais .github{
+    background: #403a3a;
+}
+
+.redes-sociais .facebook{
+    background: #455ca8;
+}
+
+.redes-sociais .twitter{
+    background: #55acef;
+}
+
+.redes-sociais{
+    float: none;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.redes-sociais i{
+    border-radius: 50%;
+    padding: 9px 13px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 17px;
+}
