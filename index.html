@@ -19,11 +19,29 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navbar-curso" class="collapse navbar-collapse">
-            <ul class="navbar-nav navbar-sidenav">
+            <ul class="navbar-nav navbar-sidenav" id="linksaccordion">
                 <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-fw fa-dashboard"></i><span class="nav-link-text">Dashboard</span></a></li>
                 <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-fw fa-table"></i><span class="nav-link-text">Tabelas</span></a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-fw fa-wrench"></i><span class="nav-link-text">Componentes</span></a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-fw fa-file"></i><span class="nav-link-text">Páginas</span></a></li>
+                <li class="nav-item" data-toggle="tooltip" data-placemente="right">
+                    <a class="nav-link nav-link-collapse collapse" href="#linkscomponentes" data-toggle="collapse" data-parent="#linksaccordion">
+                        <i class="fa fa-fw fa-wrench"></i><span class="nav-link-text">Componentes</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="linkscomponentes">
+                        <li><a href="login.html">Página Login</a></li>
+                        <li><a href="recuperar.html">Página Recuperar</a></li>
+                        <li><a href="registro.html">Página Registro</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placemente="right">
+                    <a class="nav-link nav-link-collapse collapse" href="#linkspaginas" data-toggle="collapse" data-parent="#linksaccordion">
+                        <i class="fa fa-fw fa-file"></i><span class="nav-link-text">Páginas</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="linkspaginas">
+                        <li><a href="login.html">Página Login</a></li>
+                        <li><a href="recuperar.html">Página Recuperar</a></li>
+                        <li><a href="registro.html">Página Registro</a></li>
+                    </ul>
+                </li>
             </ul>
             <ul class="navbar-nav sidenav-toggler">
                 <li class="nav-item">
